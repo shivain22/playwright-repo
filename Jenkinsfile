@@ -1,8 +1,4 @@
 pipeline {
-    agent {
-        docker {
-            image: mcr.microsoft.com/playwright
-        }
         stages{
             stage('tests'){
                 steps{
